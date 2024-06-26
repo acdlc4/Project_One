@@ -34,32 +34,32 @@ To show this information for every state, a heat map was created from the datafr
      *fig = px.choropleth(df, locations='Abbreviation', locationmode="USA-states", color='total_est_pct2', scope="usa", color_continuous_scale="YlOrRd", # or any other color scale title=" % of Sates Population in Poverty")*
      *fig.show()*
      
-![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/tree/main/Output/state_poverty_map.png)
+![Opioid Deaths by State](https://github.com/acdlc4/Project_One/blob/main/Output/state_poverty_map.png)
 
 
 ## Data Analysis
 
 In order to get a better understanding of the impacts of synthetic opioids to the US population, the line plot below was created to be able to visually compare the overall opioid death rates to the death rates attributed solely to synthetic opioids, including Fentanyl.  As shown, the trends between the 'All Opioids' and the 'Other Synthetics' lines show similar increasing directionality beginning in 2013 on forward.
 
-![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/tree/main/Output/rate_by_synth1.png)
+![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/blob/main/Output/rate_by_synth1.png)
 
 
 
 To examine the percentage of people in poverty per individual state, a bar graph was generated. To condense the information, this only showed the top 10 states with the highest percentage of poverty. A similar bar graph was made, showing the top ten states with the highest opioid-related deaths per 100k people (these graphs can be found in the powerpoint slides and jupyter notebook). The graph below summarizes the two, allowing for a comparison of state poverty and opioid-related deaths.
 
-![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/tree/main/Output/poverty_vs_deaths.png)
+![Opioid Deaths by Poverty Rates](https://github.com/acdlc4/Project_One/blob/main/Output/poverty_vs_deaths.png)
 
 
 
 Exploring geographic factors, bar charts showing overdose rates by state for 2013 and 2019 were generated. These showed an increasing trend for overdose rates. A correlation plot on population density and overdose rates, showed population density to be a more strongly correlated factor in 2019 than in 2013. Another correlation plot showed that poverty became less highly correlated in that same time frame (the bar charts and correlation plot for poverty can be found in the slides and jupyter notebook).
 
-![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/tree/main/Output/Pop_density2019.png)
+![Opioid Deaths by Population Density](https://github.com/acdlc4/Project_One/blob/main/Output/Pop_density2019.png)
 
 
 
 Has the prescription of opioid drugs influenced the increase in opioid deaths? Drug prescription data "Data.Medicaid.gov" was used to quantify the amount of 4 prescription opioids (fentanyl, morphine, oxycodone, and hydrocodone), which was delineated by state and year. From 1991 to 2023 there was an increase in fentanyl prescriptions and a less drastic increase in morphine prescriptions. This is shown in a line plot, aggregating data from all 50 states, and heatmaps depicting the changes in prescription rates by state (heatmaps can be located in powerpoint slides and jupyter notebook). Trends in Medicaid reimbursement rates were also explored from the same dataset but no significant trends were found that were relevant to our story. Medicaid reimbursement was ruled out as a determinant of opioid related-mortality rates. 
 
-![Opioid Deaths by Drug](https://github.com/acdlc4/Project_One/tree/main/Output/Country_Level_Trends_in_Opioid_Prescriptions.png)
+![Opioid Deaths by Prescriptions](https://github.com/acdlc4/Project_One/blob/main/Output/Country_Level_Trends_in_Opioid_Prescriptions.png)
 
 
 ## Result Summary
